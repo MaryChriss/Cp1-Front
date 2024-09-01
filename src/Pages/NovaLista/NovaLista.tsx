@@ -1,10 +1,16 @@
 import { Layout } from "../../Components/Layout/Layout";
-import { StyledH1 } from "./NovaLista.style";
+import { Lista } from "../../Components/Lista/Lista";
+import { StyledTodoContainer } from "../../Components/Lista/Lista.style";
+import { StyledH1 } from "./Novalista.style";
 
-export default function Profile() {
+
+export default function NovaLista() {
     return (
-    <Layout>
-        <StyledH1>Nova lista</StyledH1>
-    </Layout>
-    )
+        <Layout>
+            <StyledTodoContainer>
+                <StyledH1>Nova lista</StyledH1>
+                    <Lista />
+            </StyledTodoContainer>
+        </Layout>
+    );
 }
