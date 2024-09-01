@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const StyledMenu = styled.nav `
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    gap: 2rem;
 `;
 
 export const StyledWrapperMenu = styled.ul`
@@ -18,6 +20,8 @@ export const StyledMenuItem = styled.li `
     align-items: center;
     flex-direction: column;
     margin: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
     & a {
     font-size: 0.8rem;
