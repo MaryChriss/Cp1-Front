@@ -1,26 +1,27 @@
 import { BiHome } from "react-icons/bi"
 import { Link } from "react-router-dom"
 import { FiFilePlus, FiUser } from "react-icons/fi";
+import { StyledMenu, StyledMenuItem, StyledWrapperMenu } from "./Menu.style";
 
 export const Menu = () => {
     return (
-        <nav>
-            <ul>
-                <li> 
+        <StyledMenu>
+            <StyledWrapperMenu>
+                <StyledMenuItem> 
                     <BiHome />
                     <Link to="/">Home</Link>
-                </li>
+                </StyledMenuItem>
 
-                <li>
+                <StyledMenuItem>
                     <FiFilePlus />
                     <Link to="/novalista">Nova Lista</Link>
-                </li>
+                </StyledMenuItem>
 
-                <li>
+                <StyledMenuItem>
                     <FiUser />
                     <Link to="/perfil">Perfil</Link>
-                </li>
-            </ul>
-        </nav>
+                </StyledMenuItem>
+            </StyledWrapperMenu>
+        </StyledMenu>
     )
 }
