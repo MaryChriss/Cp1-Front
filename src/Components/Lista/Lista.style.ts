@@ -4,10 +4,6 @@ export const StyledTodoContainer = styled.div`
     padding: 30px;
 `;
 
-export const Styledh6 = styled.h6`
-    color: #808080;
-`
-
 export const StyledList = styled.div`
     display: flex;
     gap: 2rem;

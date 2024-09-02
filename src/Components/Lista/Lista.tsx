@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Styledh6, StyledInput, StyledList, StyledTaskList, StyledTodoContainer } from './Lista.style';
+import React, { useEffect, useState } from 'react';
 import { BsPlusCircle } from 'react-icons/bs';
+import { StyledInput, StyledList, StyledTaskList, StyledTodoContainer } from './Lista.style';
 
 interface Task {
     id: number;
@@ -42,8 +42,6 @@ export const Lista: React.FC = () => {
 
     return (
         <StyledTodoContainer>
-            <Styledh6>Adicionar Item</Styledh6>
-
             <StyledList>
                 <StyledInput
                     type="text"
@@ -52,7 +50,7 @@ export const Lista: React.FC = () => {
                     placeholder="Digite o item desejado..."
                 />
                 <div onClick={addTask} style={{ cursor: 'pointer' }}>
-                    <BsPlusCircle size="2rem"  color="#38aede"/>
+                    <BsPlusCircle size="2rem" color="#38aede" />
                 </div>
             </StyledList>
 
