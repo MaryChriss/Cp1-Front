@@ -9,17 +9,17 @@ export const Menu = () => {
                 <StyledWrapperMenu>
                     <StyledMenuItem> 
                         <BiHome size="1.5rem" color="#38aede"/>
-                        <Link to="/">Home</Link>
+                        <Link style={{ color: '#38aede' }} to="/">Home</Link>
                     </StyledMenuItem>
 
                     <StyledMenuItem>
                         <FiFilePlus size="1.5rem" color="#38aede"/>
-                        <Link to="/novalista">Nova Lista</Link>
+                        <Link style={{ color: '#38aede' }} to="/novalista">Nova Lista</Link>
                     </StyledMenuItem>
 
                     <StyledMenuItem>
                         <FiUser size="1.5rem" color="#38aede"/>
-                        <Link to="/perfil">Perfil</Link>
+                        <Link style={{ color: '#38aede' }} to="/perfil">Perfil</Link>
                     </StyledMenuItem>
                 </StyledWrapperMenu>
             </StyledMenu>

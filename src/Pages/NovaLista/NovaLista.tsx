@@ -1,5 +1,6 @@
 import { Layout } from "../../Components/Layout/Layout";
-import { Lista } from "../../Components/Lista/Lista";
+import Lista from "../../Components/Lista/Lista";
+
 import { StyledTodoContainer } from "../../Components/Lista/Lista.style";
 import { StyledH1 } from "./Novalista.style";
 

@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const StyledTodoContainer = styled.div`
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
 `;
 
 export const Styledh6 = styled.h6`
     color: #808080;
+    margin-bottom: 0;
 `
 
 export const StyledList = styled.div`
@@ -15,7 +18,7 @@ export const StyledList = styled.div`
 `
 
 export const StyledInput = styled.input`
-    width: 50%;
+    width: 75%;
     padding: 10px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
